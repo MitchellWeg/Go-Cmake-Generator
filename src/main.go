@@ -14,7 +14,7 @@ func main() {
 	flag.Parse()
 
 	// Copy CMake files
-	cmakeFiles := listFilesInDir("/Project-Files/CMakeFiles")
+	cmakeFiles := listFilesInDir("/Project-Files/CMakeFiles_proj")
 	moveAllFilesInDir(cmakeFiles, *path)
 
 	// Copy src dir
