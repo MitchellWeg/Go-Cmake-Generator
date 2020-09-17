@@ -7,4 +7,4 @@ project(hello_world Go)
 set(SOURCE_FILES
     src/main.go)
 
-add_executable(hello_world ${SOURCE_FILES})
+add_executable(main ${SOURCE_FILES})
